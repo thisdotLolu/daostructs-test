@@ -5,6 +5,7 @@ const ImgVid = ({image,overlay,setOverlay}) => {
   return (
     <div className='img_vid'>
     <div className='modal_container'>
+    {/* onClick={()=>setCover(false)} */}
         <FaTimes
         className='close_modal'
         onClick={()=>setOverlay(false)}
